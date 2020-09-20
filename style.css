@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+
+body {
+    background-color: rgb(180, 177, 177);
+    font-family: "Archivo Narrow";
+}
+
+.barra-padre {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.carrito-logo {
+    display: flex;
+    margin: 10px;
+}
+
+section {
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.presentación {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalles-compras {
+    display: flex;
+     
+}
+
+
+
+.categorias-puntaje {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contenedor-tarjetas {
+    
+    width: 650px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor-tarjetas > div {
+    background-color: #fafafa;
+    border: 1px solid black;
+    margin: 5px;
+    flex: 1 1 200px;
+}
+
+footer {
+    background-color: #fafafa;
+    height: 100px;
+    font: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
